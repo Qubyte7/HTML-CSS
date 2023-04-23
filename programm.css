@@ -1,0 +1,118 @@
+/* *{
+    padding: 0;
+    margin: 2px 0px 0px 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-family: sans-serif;
+    background-image: url("green.jpg");
+background-size: cover;
+}
+.menu-bar{
+    background: rgb(7, 154, 29);
+     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+     border-radius: 7px;
+} 
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding: 0px;
+    color:rgb(12, 10, 10);
+      
+}
+.menu-bar ul li{
+    width: 120px; 
+margin-left: 0.2%;
+    padding: 13px;
+}
+.menu-bar ul li:hover{
+    background-color: rgb(83, 229, 15);
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: beige;
+}
+
+i{
+    color: rgb(254, 254, 254);
+    padding: 7%;
+
+    
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+body
+{
+    background: #333;
+}
+.container
+{
+    top: 15vh;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    height: 100%;
+    width: 70px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 25px 20px rgba(0,0,0,0.7);
+    transition: width 0.3s ease;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+a
+{
+    position: relative;
+    color: rgb(83,83,83);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.fa
+{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item
+{
+    position: relative;
+    top: 12px;
+    margin-left: 20px;
+}
+a:hover
+{
+    background-color: #eee;
+}
+
+.container:hover
+{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+.logout
+{
+    position: absolute;
+    bottom: 0;
+}
